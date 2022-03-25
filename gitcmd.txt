@@ -1,0 +1,24 @@
+1. git config --global user.name "user name"
+2. git config --global user.email "mail id"
+3. git init [repo name] //create new repo
+4. git init // create the empty git repository in th location
+5. git add . //use to add the changes to the curreent directory to the staging area
+6. git commit -m "file name with extension" //used to save the changes to the local repository
+7. git status //use display the status of current repository and the staging 
+8. git merge //used to integrate different branch into single branch
+9. git push -u "repository name" master //used to upload the content from the local repository to the remote repository
+10. git pull url of the repository //used to fetch the new commit and merge them into local branch
+11. git clone url of the repository //used to create a copy of target repository or create clone in a new directory at a new place
+12. git branch "branch name "// gives the independent line of the development use
+13. git branch -v
+14. git checkout //it work together with the git branch command the command enables the navigator between the branches  
+
+first change file and save it on pc
+git add .
+git commit -m "file name with extension"
+git push origin main or master depend on location
+git fetch "url of the repository" 
+git branch name //create 
+git checkout branch name //change the branch to other branch
+git push origin --delete branch name //delete from remote
+git branch -d branch name //delete from loc

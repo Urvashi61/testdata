@@ -1,0 +1,70 @@
+const c = [
+  {First Name: 'John', Age: 23},
+  {First Name: 'Tom', Age: 25}
+]
+// Task 3: get all Children by parentId create a dropdown of all ids, user can select id and will get all children
+const a = [
+  {id: 1, parentId: null},
+  {id: 2, parentId: 1},
+  {id: 3, parentId: 1},
+  {id: 4, parentId: 2},
+  {id: 5, parentId: 2},
+  {id: 6, parentId: 2},
+  {id: 7, parentId: 5},
+  {id: 8, parentId: 5},
+  {id: 9, parentId: 5},
+  {id: 10, parentId: 5},
+]
+/*
+output will be:
+// if user select id 1
+const b
+/*
+output will be:
+// if user select id 1
+const b = [2,3,4,5,6,7,8,9,10];
+// if user select id 5
+const b = [7,8,9,10];
+*/
+KANISHK KUMAR11:34 PM
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task 1</title>
+  </head>
+  <body>
+    <h1>Task 1</h1>
+    <p id="1"></p>
+    <script>
+      const a = [
+        {name: 'first_name', alais: 'First Name', type: 'string'},
+        {name: 'age', alais: 'Age', type: 'number'}
+      ];
+
+      const b = [
+        {first_name: 'John', age: 23},
+        {first_name: 'Tom', age: 25},
+      ];
+
+      const c = [];
+      const x = a.length;
+      const y = b.length;
+
+      for(i=0; i<y; i++) {
+        c
+ const c = [];
+      const x = a.length;
+      const y = b.length;
+
+      for(i=0; i<y; i++) {
+        const r = {};
+        for(j=0; j<x; j++) {
+          r[a[j].alais] = b[i][a[j].name];
+        }
+        c.push(r);
+      }
+      document.getElementById("1").innerHTML = JSON.stringify(c);
+      console.log(c);
+    </script>
+  </body>
+</html>
